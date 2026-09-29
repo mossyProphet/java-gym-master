@@ -1,6 +1,6 @@
-package ru.yandex.practicum.gym;
+import java.util.ArrayList;
 
-public class TrainingSession {
+public class TrainingSession extends ArrayList<TrainingSession> {
 
     //группа
     private Group group;
